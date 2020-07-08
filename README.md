@@ -23,3 +23,28 @@ nginx.vim/
 └── syntax
     └── nginx.vim
 ```
+
+## Installation
+
+Install using any vim plugin manager. If you're not familiar with any, go with Plug ([``vim-plug``](https://github.com/junegunn/vim-plug)).
+Then install this plugin using the your vim's plugin manager as follows:
+
+### Pathogen
+```
+git clone https://github.com/charlietag/nginx.vim.git ~/.vim/bundle/nginx.vim
+```
+
+### Plug
+```
+Plug 'charlietag/nginx.vim'
+```
+
+### Dein.vim
+```
+call dein#add('charlietag/nginx.vim')
+```
+
+### Vundle
+```
+Plugin 'charlietag/nginx.vim'
+```
